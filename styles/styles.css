@@ -1,11 +1,51 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 body {
-  color: red;
+    background-color: lightblue;
+}
+h1 {
+     color: white;
+     font-family: fantasy;
+     text-align: center;
+}
+h2 {
+     color: red;
+     font-family: sans-serif;
+     text-align: center;
+}
+h3 {
+     color: green;
+     font-family: serif;
+     text-align: center;
+}
+ p {
+     background-color: beige;
+     font-family: verdana;
+     font-size: 20px;
+ }
+ a {
+    color: purple;
+    font-size: 30px;
 }
 img {
   border-style: dashed;
   border-color: blue;
   width:  25%;
+}
+ul {
+    list-style-type: circle;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+    font-family: verdana;
+    font-size: 25px;
+}
+ol {
+    list-style-type: upper-roman;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+    font-family: times new roman;
+    font-size: 25px;
 }
