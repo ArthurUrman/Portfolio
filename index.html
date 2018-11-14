@@ -3,19 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>My HTML5 100A Portfolio Homepage</title>
-    <link rel="stylesheet" type="text/css"
-     href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
   <body>
-    <header>
-      <h1>My HTML 100A Portfolio Home Page</h1>
-    </header>
-    <article>
+    <div class="page-container">
       <header>
-        <h2>Page Description</h2>
+        <nav class="nav">
+          <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+              <i class="fas fa-home"></i>
+            <li><a href="about-me.html">About Me Page</a></li>
+              <i class="fas fa-user-circle"></i>
+          </ul>
+        </nav>
+      <div class="main-header">
+        <h1>My HTML 100A Portfolio Home Page</h1>
+      </div>
       </header>
+    <article>
+      <div class="header">
+        <h2 id="delay">Page Description - This page includes the portfolio of in-class and homework projects completed in HTML5 100A class by Arthur Urman</h2>
+      </div>
       <section>
-        <h3>This page includes the portfolio of in-class and homework projects completed in HTML5 100A class by Arthur Urman</h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor tellus nec auctor molestie. In hac habitasse platea dictumst.
           Sed elementum fringilla orci, non volutpat sem. Vestibulum pulvinar et magna luctus ullamcorper. Proin velit mi, aliquam nec diam non,
           lacinia dictum risus. Donec purus massa, porttitor vitae fringilla quis, condimentum in ex. Aliquam id rutrum lacus. Nam tincidunt
@@ -23,15 +34,12 @@
           Aliquam et elementum odio. Ut feugiat augue eget dapibus posuere. Aenean vehicula finibus augue, blandit interdum mi suscipit eu.
         </p>
       </section>
-      <footer>
-        <h4><a href="about-me.html">About Me</a></h4>
         <p>Etiam velit lorem, feugiat eu sagittis eget, mattis at nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
           Nunc non eleifend massa. Mauris imperdiet lectus orci, sed vestibulum lectus viverra sit amet.
           Proin fringilla tortor tincidunt faucibus vulputate. Proin eros lectus, vulputate ut volutpat vel, mollis ac nisi.
           Aliquam lectus neque, blandit vitae efficitur a, condimentum et odio. Aenean porta vulputate mi, ac cursus augue scelerisque quis.
           Quisque et euismod nisl. Sed ac odio est. Donec at nulla nec neque placerat vestibulum. Sed vel maximus turpis.
         </p>
-      </footer>
     </article>
     <nav>
       <header>
@@ -52,7 +60,14 @@
     </figure>
     <br>
     <footer>
-      <p><a href="mailto:urman0707@gmail.com">Contact Me</a>.</p>
+      <div class="footer">
+        <a href="https://www.linkedin.com/in/arthur-urman-166174126/" class="contact">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:urman0707@gmail.com" class="contact">
+          <i class="fas fa-envelope-square fa-lg"></i>
+        </a>
+      </div>
     </footer>
   </body>
 </html>

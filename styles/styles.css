@@ -2,22 +2,40 @@
 box-sizing: border-box;
 }
 body {
-    background-color: lightblue;
+    font-family: 'Spicy Rice', cursive;
+    margin: 0 auto;
+    padding: 0;
 }
-h1 {
-     color: white;
-     font-family: fantasy;
-     text-align: center;
+.page-container {
+  background-color:#FFDAB9;
 }
-h2 {
-     color: red;
-     font-family: sans-serif;
-     text-align: center;
+.main-header {
+  margin: 2rem;
+  padding:1rem;
+  color: red;
+  justify-content: center;
 }
-h3 {
-     color: green;
-     font-family: serif;
-     text-align: center;
+.header {
+  margin: 2rem;
+  padding:1rem;
+  background-color: blue;
+  color: black;
+  justify-content: center;
+}
+.main-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-weight: bold;
+}
+#delay:hover {
+  font-size: 50px;
+  font-weight: bolder;
+}
+a:visited {
+  color: black;
 }
  p {
      background-color: beige;
@@ -44,8 +62,13 @@ ul {
 ol {
     list-style-type: upper-roman;
     text-align: center;
-    border-style: double;
-    border-color: blue;
     font-family: times new roman;
-    font-size: 25px;
+}
+.footer {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+  list-style-type: none;
 }
